@@ -1,0 +1,16 @@
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略 Obsidian 运行状态文件（防止多端布局冲突）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# 忽略插件的缓存和数据（可选）
+.obsidian/plugins/*/*.log
+.obsidian/cache/
+
+# 如果你不想同步第三方插件的代码，可以取消下面这行的注释（不建议）
+# .obsidian/plugins/
+
+/.obsidian/workspace.json
